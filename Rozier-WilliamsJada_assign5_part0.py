@@ -4,4 +4,4 @@ if number_of_prices > 0:
     print(number_of_prices)
 
 for i in range(number_of_prices):
-    
+    input(f"Enter Price #")
