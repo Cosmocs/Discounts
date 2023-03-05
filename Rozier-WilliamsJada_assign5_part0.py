@@ -1,7 +1,8 @@
 number_of_prices = int(input("How many prices would you like to collect? "))
-while number_of_prices == True:
+while number_of_prices <  0:
         print("Must be positive, try again")
-        number_of_prices = True    
+        number_of_prices = True
+      
 
 subtotal = 0
 savings = 0
